@@ -1,0 +1,7 @@
+<suite name="Sanity">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ebayyTestRunner.qa.ebayyTestRunnerClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Laptop Page Is Displayed",
+        "description": "",
+        "id": "this-is-the-search-functionality;verify-laptop-page-is-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1815258600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch Application \u003c\"URL\"\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 21
+                }
+              ],
+              "location": "ebayyStepDeffClass.launch_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152709500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Input \u003c\"searchItem\"\u003e In Search Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "searchItem",
+                  "offset": 8
+                }
+              ],
+              "location": "ebayyStepDeffClass.input_In_Search_Field(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4331994101,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click Search Button",
+            "match": {
+              "location": "ebayyStepDeffClass.click_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 331808299,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Laptop Page Is Displayed",
+            "match": {
+              "location": "ebayyStepDeffClass.verify_Laptop_Page_Is_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@testSearch"
+          }
+        ]
+      }
+    ],
+    "name": "This is the search functionality",
+    "description": "",
+    "id": "this-is-the-search-functionality",
+    "keyword": "Feature",
+    "uri": "ebayySearch.feature"
+  }
+]
